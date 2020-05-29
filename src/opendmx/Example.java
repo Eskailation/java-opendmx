@@ -8,7 +8,7 @@ public class Example {
         OpenDmx.connect(OpenDmx.OPENDMX_TX);
     }
     
-    public static void setLightLampTeam1(int channel, int value) {
+    public static void setLight(int channel, int value) {
         OpenDmx.setValue(channel, value);
     }
 }
